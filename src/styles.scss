@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+table {
+    width: 100%;
+  }
+  
+  a{
+    text-decoration: none;
+    
+  }
+  .active{    
+     background-color: yellow;
+    // text-decoration: underline;
+   }
+ mat-header-cell {
+    text-align: center;
+    // max-width: 300px;
+    background: #368BC1 !important;
+    color: #E5E4E2 !important;
+    font-size: .85rem;
+  }
+  th.mat-header-cell {
+   
+    background: #368BC1 !important;
+    color: #E5E4E2;
+    font-size: .85rem;
+  }
+  td.mat-cell { 
+    border: 1px solid #ddd;
+   }
+   
+   tr.mat-row {
+     /* row border */
+     border: 1px solid #ddd;
+   }
+  //Material Filter Table Recors
+  .mat-form-field {
+    // font-size: .70rem;
+    width: 100%;
+  }
+   
+  thead {
+  // text-align: center;
+  // max-width: 300px;
+  background: #368BC1 !important;
+  color: #E5E4E2;
+  font-size: .85rem;
+}
+
+th {
+  /* row border */
+  // border-bottom: 1px solid #ddd;
+  border: 1px solid #ddd;
+
+}
